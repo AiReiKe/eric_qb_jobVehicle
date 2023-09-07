@@ -29,7 +29,8 @@ Config.Zones = {
 
 if not IsDuplicityVersion() then
     function SetFuel(veh, fuel)
-        exports['LegacyFuel']:SetFuel(veh, fuel)
+        SetVehicleFuelLevel(veh, fuel)
+        --exports['LegacyFuel']:SetFuel(veh, fuel)
         --exports['cdn-fuel']:SetFuel(veh, fuel)
     end
 end
