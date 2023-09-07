@@ -1,6 +1,6 @@
 # eric_qb_jobVehicle
-Simple Job Garages For QBCore
-support `qb-target`
+Simple Job Garages For QBCore<br>
+support `qb-target`(Optional)
 
 ---
 If you want to use this script, **Pls select a plan**:
